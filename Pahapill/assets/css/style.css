@@ -356,11 +356,29 @@ header {
   text-transform: uppercase;
 }
 
-.footer-navbar {
+/* .footer-navbar {
   margin-bottom: 100px;
-}
+} */
 
 .nav-section a {
   color: #929292;
   padding-bottom: 20px;
+}
+
+.footer-navbar .copyright {
+  padding: 36px 0px 45px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-navbar .copyright p,
+.copyright a {
+  font-size: 16px;
+  font-weight: 600;
+  color: #929292;
+  word-spacing: -1px;
+}
+
+.copyright a:hover {
+  color: #a11d20;
 }

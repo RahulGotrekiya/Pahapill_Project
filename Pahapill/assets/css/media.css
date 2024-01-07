@@ -400,7 +400,7 @@
   }
 
   .partnership-section {
-    padding: 50px 0;
+    padding: 50px 0 25px 0;
   }
 
   .title h2 {
@@ -469,12 +469,20 @@
   .partnership-image h4 {
     padding: 15px 30px;
   }
+
+  .footer-navbar .copyright {
+    padding: 24px 0px 28px 0px;
+  }
+
+  .footer-navbar .copyright p,
+  .copyright a {
+    font-size: 11px;
+  }
 }
 
 @media only screen and (max-width: 991px) {
   .container {
     max-width: 740px;
-    padding: 0 30px;
   }
 
   .banner-heading {
@@ -509,7 +517,8 @@
     padding-bottom: 0;
   }
 
-  .nav-section > .nav-links {
+  .nav-section > .nav-links,
+  .footer-navbar .copyright {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -573,12 +582,24 @@
     margin-top: 40px;
   }
 
+  .contact-detail h6 {
+    font-size: 15px;
+  }
+
+  .left-col h2 {
+    font-size: 50px;
+  }
+
   .right-col {
     width: 50%;
   }
 
   .nav-section .navbar .nav-links li {
     font-size: 13px;
+  }
+
+  .footer-navbar .copyright {
+    padding: 15px 0px 23px 0px;
   }
 }
 
@@ -650,16 +671,12 @@
     text-align: center;
   }
 
-  .nav-section .navbar .nav-links li {
-    padding: 2px 0;
-    display: block;
-    font-size: 20px;
-    font-weight: 600;
-  }
-
+  .nav-section .navbar .nav-links li,
   .nav-section .nav-links li {
     padding: 2px 0;
-    font-size: 20px;
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
   }
 
   .full-container .nav-contact {
@@ -670,5 +687,85 @@
 @media only screen and (max-width: 480px) {
   .container {
     max-width: 300px;
+  }
+
+  .full-container {
+    padding: 10px 20px;
+    position: sticky;
+  }
+
+  .logo img {
+    height: 28px;
+  }
+
+  .full-container .nav-contact {
+    padding: 12px;
+    font-size: 12px;
+  }
+
+  .banner-heading::before {
+    width: 50px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .title h2 {
+    font-size: 20px;
+  }
+
+  .title p {
+    font-size: 15px;
+  }
+
+  .main-partnership {
+    padding-top: 15px;
+  }
+
+  .approach-block {
+    margin-top: -60px;
+  }
+
+  .approach-text h2 {
+    font-size: 20px;
+  }
+
+  .approach-text p {
+    padding-top: 10px;
+  }
+
+  .left-col h2 {
+    font-size: 40px;
+  }
+
+  .contact-detail {
+    margin-top: 30px;
+  }
+
+  .contact-detail h6 {
+    font-size: 15px;
+  }
+
+  .contact-detail > img {
+    width: 30px;
+    top: 15px;
+  }
+
+  .contact-detail > .tel {
+    font-size: 18px;
+  }
+
+  .contact-detail {
+    padding-left: 50px;
+  }
+
+  .two-column {
+    padding-bottom: 40px;
+  }
+
+  .nav-section .navbar .nav-links li,
+  .nav-section .nav-links li {
+    font-size: 15px;
   }
 }
